@@ -1,9 +1,9 @@
 function ReverseWord(str: string): string {
   let reversedString = "";
 
-  for (let i = 0; i < str.length; i++) {
-    reversedString = str[i] + reversedString;
-  }
+  // for (let char of str) {
+  //   reversedString = char + reversedString;
+  // }
 
   return reversedString;
 }
